@@ -1,0 +1,46 @@
+---
+title: "Atharva Ingle"
+page-layout: full
+title-block: false
+title-block-banner: false
+---
+
+<style>
+  /* Hide header block on the homepage (defensive) */
+  #title-block-header { display: none; }
+  .quarto-title-block { display: none; }
+</style>
+
+<div style="float: right; max-width: 180px; margin-left: 15px; margin-bottom: 10px;">
+  <img 
+    src="profile.jpg" 
+    alt="Profile picture of Atharva" 
+    style="max-width: 100%; height: auto; display: block; border-radius: 8px;"> 
+    <!-- Added border-radius for slightly rounded corners -->
+</div>
+
+Hi there, I’m Atharva 👋. Welcome to my little corner of the internet!
+
+*Drop an email at <a href="mailto:atharvaaingle@gmail.com" target="_blank">atharvaaingle@gmail.com</a> for freelancing projects/consultancy.*
+
+[My GitHub](https://github.com/Gladiator07)
+
+At work, I'm a Data Scientist II at Wolters Kluwer, diving deep into Document AI and LLMs 🤖. Lately, my focus has shifted towards AI agents – not just chasing the hype, but genuinely figuring out where they can make a real impact in our company. I also occasionally write technical reports for Weights & Biases on the side.
+
+Outside work, you’ll find me competing on Kaggle. I just love the adrenaline rush! 🚀 Since Kaggle represents the intersection of my field of interest and competitiveness, it provides the perfect platform for me. (Yes, I burn a looooot of GPU credits for it – happy if someone sponsors it! :D).
+
+Before the AI bug bit quite so hard, I was pretty deep into gaming 🎮 – played a bit of everything, really, but especially loved FIFA on the PlayStation. I still squeeze in some game time occasionally when I can.
+
+So, what's this blog for? It's basically my attempt to make sense of it all – sharing projects, things I'm learning, maybe the occasional rant, and posts about other random topics that grab my interest (though, fair warning, expect a lot of AI content). Think of it as my journey, documented 📝.
+
+Pull up a chair, let's learn something together. Glad you stopped by! 😄
+
+----
+
+**P.S. If you want the nitty-gritty on projects I've worked on or my background, check out the [About](https://atharva.bearblog.dev/about/) page.**
+
+
+<div style="clear: both;"></div> 
+<!-- This stops text below from wrapping around the image -->
+
+You can contact me on <a href="https://twitter.com/AtharvaIngle7" target="_blank">Twitter</a> (most active), <a href="mailto:atharvaaingle@gmail.com" target="_blank">Gmail</a>, <a href="https://www.linkedin.com/in/atharva-ingle-564430187/" target="_blank">LinkedIn</a>. My other accounts include <a href="https://www.kaggle.com/atharvaingle" target="_blank">Kaggle</a>, <a href="https://wandb.ai/gladiator" target="_blank">Weights & Biases</a>, and <a href="https://www.youtube.com/channel/UCT6C1WwBRvi1Gc4iVdeP8FQ" target="_blank">YouTube</a>.
