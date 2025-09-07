@@ -9,7 +9,7 @@
 <meta name="dcterms.date" content="2025-09-07">
 <meta name="description" content="A brief description of what this post is about">
 
-<title>My First Blog Post – Atharva Ingle</title>
+<title>vLLM V0 + Prefix Caching on 2×T4: Why merged weights hung but LoRA didn’t – Atharva Ingle</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -311,7 +311,7 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#vllm-v0-prefix-caching-on-2t4-why-merged-weights-hung-but-lora-didnt" id="toc-vllm-v0-prefix-caching-on-2t4-why-merged-weights-hung-but-lora-didnt" class="nav-link active" data-scroll-target="#vllm-v0-prefix-caching-on-2t4-why-merged-weights-hung-but-lora-didnt">vLLM V0 + Prefix Caching on 2×T4: Why merged weights hung but LoRA didn’t</a>
   <ul class="collapse">
-  <li><a href="#tldr" id="toc-tldr" class="nav-link" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#tldr-too-long-didnt-read" id="toc-tldr-too-long-didnt-read" class="nav-link" data-scroll-target="#tldr-too-long-didnt-read">TL;DR (Too long didn’t read)</a></li>
   <li><a href="#what-prefix-caching-is-doing-in-vllm" id="toc-what-prefix-caching-is-doing-in-vllm" class="nav-link" data-scroll-target="#what-prefix-caching-is-doing-in-vllm">What prefix caching is doing in vLLM</a></li>
   <li><a href="#why-merged-weights-prefix-caching-froze-on-your-run" id="toc-why-merged-weights-prefix-caching-froze-on-your-run" class="nav-link" data-scroll-target="#why-merged-weights-prefix-caching-froze-on-your-run">Why merged weights + prefix caching froze on your run</a></li>
   <li><a href="#why-lora-didnt-show-the-problem-but-merged-weights-did" id="toc-why-lora-didnt-show-the-problem-but-merged-weights-did" class="nav-link" data-scroll-target="#why-lora-didnt-show-the-problem-but-merged-weights-did">Why LoRA didn’t show the problem (but merged weights did)</a></li>
@@ -328,7 +328,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">My First Blog Post</h1>
+<h1 class="title">vLLM V0 + Prefix Caching on 2×T4: Why merged weights hung but LoRA didn’t</h1>
   <div class="quarto-categories">
     <div class="quarto-category">new</div>
   </div>
@@ -362,8 +362,8 @@ ul.task-list li input[type="checkbox"] {
 <section id="vllm-v0-prefix-caching-on-2t4-why-merged-weights-hung-but-lora-didnt" class="level1">
 <h1>vLLM V0 + Prefix Caching on 2×T4: Why merged weights hung but LoRA didn’t</h1>
 <hr>
-<section id="tldr" class="level3">
-<h3 class="anchored" data-anchor-id="tldr">TL;DR</h3>
+<section id="tldr-too-long-didnt-read" class="level3">
+<h3 class="anchored" data-anchor-id="tldr-too-long-didnt-read">TL;DR (Too long didn’t read)</h3>
 <ul>
 <li>Your freeze was a <strong>V0 engine + TP&gt;1 + prefix caching</strong> interaction under tight VRAM. Turning <strong>enable_prefix_caching=False</strong> removed that path.</li>
 <li>With <strong>merged weights</strong>, the engine <strong>reused</strong> one giant shared-prefix KV cache across thousands of requests; the V0 scheduler/block-manager then ran out of allocatable KV blocks and stalled. With <strong>LoRA</strong>, caches are <strong>namespaced per adapter</strong>, so that aggressive sharing path wasn’t taken, avoiding the stall.</li>
