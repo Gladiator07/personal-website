@@ -1,22 +1,46 @@
 project:
   type: website
-  render:
-    - index.qmd
 
 website:
   description: "Atharva Ingle — Personal Website"
   site-url: https://your-website-url.example.com # update when domain is ready
+  favicon: assets/favicon.webp
+  page-navigation: true
   title: "Atharva Ingle"
   navbar:
+    left:
+      - text: About
+        href: pages/about.qmd
+      - text: Blog
+        href: blogs.qmd
     right:
+      - text: "<img src='assets/kaggle_icon.svg' alt='Kaggle' class='nav-icon' />"
+        href: https://www.kaggle.com/atharvaingle
+        aria-label: Kaggle
       - icon: github
         href: https://github.com/Gladiator07
       - icon: twitter
         href: https://twitter.com/AtharvaIngle7
+      - icon: linkedin
+        href: https://www.linkedin.com/in/atharva-ingle-564430187/
+      - icon: substack
+        href: https://atharvaingle.substack.com/
+
+    twitter-card:
+      site: "@AtharvaIngle7"
+      title: "Atharva Ingle"
+      description: "Personal Website of Atharva Ingle"
+      image: "assets/profile.jpg"
 format:
   html:
     theme:
-      - cosmo
-      - brand
+      light: flatly
+      dark: darkly
     css: styles.css
-
+    link-external-icon: true
+    link-external-newwindow: true
+    respect-user-color-scheme: false
+    mainfont: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Inter', 'Noto Sans', Arial, sans-serif"
+    monofont: "'SF Mono', 'Monaco', 'Inconsolata', 'Fira Code', 'JetBrains Mono', 'Source Code Pro', 'Consolas', 'Courier New', monospace"
+    fontsize: 1.05em
+    linestretch: 1.6

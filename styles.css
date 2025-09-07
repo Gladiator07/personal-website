@@ -1,1 +1,56 @@
-/* css styles */
+/* Minimal home intro */
+.home-avatar {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  float: left;
+  margin: 2px 14px 6px 0;
+}
+
+@media (max-width: 600px) {
+  .home-avatar {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.navbar .nav-icon {
+  width: 1.1rem;
+  height: 1.1rem;
+  vertical-align: -0.2rem;
+}
+/* Simple single background color per mode */
+
+/* Light mode: soft warm off‑white */
+/* Ensure link colors override Bootswatch values */
+:root,
+body.quarto-light {
+  --bs-body-bg: #f7f3ed; /* global page background */
+  --bs-link-color: #1f6feb; /* link */
+  --bs-link-hover-color: #1158c7; /* hover */
+}
+
+/* Dark mode: warm near‑black */
+body.quarto-dark,
+[data-bs-theme="dark"] {
+  /* Slightly lighter warm dark */
+  --bs-body-bg: #1b1816; /* global page background */
+  --bs-link-color: #58a6ff; /* accessible blue on dark */
+  --bs-link-hover-color: #79b8ff; /* lighter on hover */
+}
+
+/* Fallback explicit link colors (in case a component hard-codes) */
+a {
+  color: var(--bs-link-color);
+}
+a:hover,
+a:focus {
+  color: var(--bs-link-hover-color);
+}
+
+/* Make navbar match the single background color */
+header .navbar {
+  background-color: var(--bs-body-bg) !important;
+  border-bottom: none;
+}

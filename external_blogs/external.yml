@@ -1,0 +1,90 @@
+- title: Using Google's Agent Development Kit and Agent2Agent
+  path: https://wandb.ai/gladiator/Google-Agent2Agent/reports/Using-Google-s-Agent-Development-Kit-and-Agent2Agent--VmlldzoxMjIyODEwOA
+  categories: [W&B, Agents]
+  description: "Discover the Agent2Agent (A2A) open protocol for AI interoperability. Learn A2A principles & build a multi-agent system using Google's ADK in our tutorial."
+  image: external_blogs/images/using-google.png
+  date: '2025-04-10'
+- title: 'Deep reinforcement learning: Integrating neural networks with RL'
+  path: https://wandb.ai/gladiator/Reinforcement-learning-reports/reports/Deep-Reinforcement-Learning-Integrating-neural-networks-with-RL--VmlldzoxMjE2OTQ1Mw
+  categories: [W&B, RL]
+  description: "Explore how deep reinforcement learning combines neural networks and RL to enable agents to learn optimal strategies from raw data across gaming and robotics."
+  image: external_blogs/images/deep-reinforcement-learning-integrating-neural-networks-with-rl.png
+  date: '2025-04-07'
+- title: Supervised learning vs deep learning vs reinforcement learning
+  path: https://wandb.ai/gladiator/Reinforcement-learning-reports/reports/Supervised-learning-vs-deep-learning-vs-reinforcement-learning--VmlldzoxMjE0MzQ0NQ
+  categories: [W&B, RL]
+  description: "Supervised vs deep vs reinforcement learning explained. See how AI uses labels, networks & rewards to learn, plus deep reinforcement learning examples."
+  image: external_blogs/images/supervised-learning-vs-deep-learning-vs-reinforcement-learning.png
+  date: '2025-04-05'
+- title: 'RAG techniques: From naive to advanced'
+  path: https://wandb.ai/site/articles/rag-techniques/
+  categories: [W&B, RAG]
+  description: "Explore various RAG techniques, from basic to advanced, and discover how chunking, indexing, and query transformation can elevate your AI's performance in complex use cases."
+  date: '2024-10-05'
+  image: external_blogs/images/rag-techniques-from-naive-to-advanced.png
+- title: LLMs are machine learning classifiers
+  path: https://wandb.ai/gladiator/LLMs-as-classifiers/reports/LLMs-are-machine-learning-classifiers--VmlldzoxMTEwNzUyNA
+  categories: [W&B, LLMs]
+  description: "Learn how to use LLMs like GPT for text classification. Explore prompting, fine-tuning, and when to choose LLMs over traditional machine learning classifiers."
+  image: external_blogs/images/llms-are-machine-learning-classifiers.png
+  date: '2025-01-27'
+- title: Building a Q&A Bot for Weights & Biases
+  path: https://wandb.ai/gladiator/gradient_dissent_qabot/reports/Building-a-Q-A-Bot-for-Weights-Biases-Gradient-Dissent-Podcast--Vmlldzo0MTcyMDQz
+  categories: [W&B, RAG]
+  description: "In this article, we explore how to utilize OpenAI's ChatGPT and LangChain to build a Question-Answering bot for Weights & Biases' podcast series, Gradient Dissent."
+  image: external_blogs/images/building-a-q-a-bot-for-weights-biases.png
+  date: '2023-04-25'
+- title: 'DeepMind Flamingo: A Visual Language Model for Few-Shot Learning'
+  path: https://wandb.ai/gladiator/Flamingo%20VLM/reports/DeepMind-Flamingo-A-Visual-Language-Model-for-Few-Shot-Learning--VmlldzoyOTgzMDI2
+  categories: [W&B, VLMs]
+  description: "In this article, we'll explore Flamingo — an open-ended single visual language model (VLM) for multimodal machine learning research developed by DeepMind."
+  image: external_blogs/images/deepmind-flamingo-a-visual-language-model-for-few-shot-learning.png
+  date: '2022-11-16'
+- title: 'BLIP-2: A new Visual Language Model by Salesforce'
+  path: https://wandb.ai/gladiator/BLIP-2/reports/BLIP-2-A-new-Visual-Language-Model-by-Salesforce--VmlldzozNjM0NjYz
+  categories: [W&B, VLMs]
+  description: "In this article, we'll explore BLIP-2, a new Vision Language Model by Salesforce which beats the previous state-of-the-art Flamingo on various multimodal tasks."
+  image: external_blogs/images/blip-2-a-new-visual-language-model-by-salesforce.png
+  date: '2023-02-24'
+- title: 'SetFit: Efficient Few-Shot Learning Without Prompts'
+  path: https://wandb.ai/gladiator/SetFit/reports/SetFit-Efficient-Few-Shot-Learning-Without-Prompts--VmlldzozMDUyMzk2
+  categories: [W&B]
+  description: "Publish your model insights with interactive plots for performance metrics, predictions, and hyperparameters. Made by Atharva Ingle using Weights & Biases"
+  image: external_blogs/images/setfit-efficient-few-shot-learning-without-prompts.png
+  date: '2022-11-29'
+- title: Is PyTorch 2.0 Faster Than PyTorch 1.13?
+  path: https://wandb.ai/gladiator/PyTorch%202.0%20Benchmarks%20v2/reports/Is-PyTorch-2-0-Faster-Than-PyTorch-1-13---VmlldzozNDA2MDQz
+  categories: [W&B, Pytorch]
+  description: "In this article, we make a comparison between the current stable version of PyTorch 1.13 with the latest announced PyTorch 2.0 to see which performs better."
+  image: external_blogs/images/is-pytorch-2-0-faster-than-pytorch-1-13.png
+  date: '2023-01-24'
+- title: 3D Segmentation with MONAI and PyTorch Supercharged by Weights & Biases
+  path: https://wandb.ai/gladiator/MONAI_Spleen_3D_Segmentation/reports/3D-Segmentation-with-MONAI-and-PyTorch-Supercharged-by-Weights-Biases---VmlldzoyNDgxNDMz
+  categories: [W&B, Pytorch]
+  description: "A tutorial on how to use Weights & Biases with MONAI and PyTorch to accelerate your medical research. Made by Atharva Ingle using Weights & Biases"
+  image: external_blogs/images/3d-segmentation-with-monai-and-pytorch-supercharged-by-weights-biases.png
+  date: '2022-08-16'
+- title: Hugging Face Accelerate Super Charged With Weights & Biases
+  path: https://wandb.ai/gladiator/HF%20Accelerate%20+%20W&B/reports/Hugging-Face-Accelerate-Super-Charged-With-Weights-Biases--VmlldzoyNzk3MDUx
+  categories: [W&B, Pytorch]
+  description: "In this article, we'll walk through how to use Hugging Face Accelerate with W&B, demonstrating how easy it is to perform distributed training and evaluation."
+  image: external_blogs/images/hugging-face-accelerate-super-charged-with-weights-biases.png
+  date: '2022-10-15'
+- title: AI and regulatory compliance in finance
+  path: https://wandb.ai/site/articles/regulatory-compliance-in-finance/
+  categories: [W&B, Finance]
+  description: "Explore regulatory compliance in finance, types of regulations, risks of non-compliance through real-world examples, and the role of technology and AI in safeguarding the financial world."
+  date: '2024-05-01'
+  image: external_blogs/images/ai-and-regulatory-compliance-in-finance.webp
+- title: What is model risk management in finance?
+  path: https://wandb.ai/site/articles/what-is-mrm-in-finance
+  categories: [W&B, Finance]
+  description: "This guide covers why Model Risk Management (MRM) is important to ensure financial models are accurate and safe, and provides tips for managing model risks effectively."
+  date: '2024-04-29'
+  image: external_blogs/images/what-is-model-risk-management-in-finance.png
+- title: MUVERA - Google's FDE approach for speeding up multi-vector retrieval
+  path: https://wandb.ai/gladiator/muvera-benchmark/reports/Muvera-tutorial-Experiment-tracking-and-observability-with-W-B-Models--VmlldzoxMzkwNjQ0NA
+  categories: [W&B, RAG]
+  description: "Scale search with MUVERA: Google's FDE approach cuts latency 18x while W&B observability ensures reliable, trackable experiments."
+  date: '2025-08-08'
+  image: external_blogs/images/muvera.png

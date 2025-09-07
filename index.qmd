@@ -1,46 +1,65 @@
 ---
-title: "Atharva Ingle"
-page-layout: full
+title: ""
 title-block: false
-title-block-banner: false
+toc: true
+listing:
+  date-format: short
+  filter-ui: false
+  sort-ui: false
+  type: table
+  sort: "date desc"
+  categories: false
+  fields: [date, title]
+  id: blog-listings
+  contents:
+    - posts
+    - external_blogs/external.yml
+  page-size: 5
 ---
 
-<style>
-  /* Hide header block on the homepage (defensive) */
-  #title-block-header { display: none; }
-  .quarto-title-block { display: none; }
-</style>
+<img src="assets/profile.jpg" alt="Atharva Ingle" class="home-avatar" />
 
-<div style="float: right; max-width: 180px; margin-left: 15px; margin-bottom: 10px;">
-  <img 
-    src="profile.jpg" 
-    alt="Profile picture of Atharva" 
-    style="max-width: 100%; height: auto; display: block; border-radius: 8px;"> 
-    <!-- Added border-radius for slightly rounded corners -->
-</div>
+I’m Atharva, a Machine Learning Engineer focused on LLMs, RAG and AI agents. I like building things that ship, writing what I learn, and competing on Kaggle for fun. This site collects my notes, projects, and occasional essays. See my [about page](pages/about.qmd) to read about my work in much detail.
 
-Hi there, I’m Atharva 👋. Welcome to my little corner of the internet!
-
-*Drop an email at <a href="mailto:atharvaaingle@gmail.com" target="_blank">atharvaaingle@gmail.com</a> for freelancing projects/consultancy.*
-
-[My GitHub](https://github.com/Gladiator07)
-
-At work, I'm a Data Scientist II at Wolters Kluwer, diving deep into Document AI and LLMs 🤖. Lately, my focus has shifted towards AI agents – not just chasing the hype, but genuinely figuring out where they can make a real impact in our company. I also occasionally write technical reports for Weights & Biases on the side.
-
-Outside work, you’ll find me competing on Kaggle. I just love the adrenaline rush! 🚀 Since Kaggle represents the intersection of my field of interest and competitiveness, it provides the perfect platform for me. (Yes, I burn a looooot of GPU credits for it – happy if someone sponsors it! :D).
-
-Before the AI bug bit quite so hard, I was pretty deep into gaming 🎮 – played a bit of everything, really, but especially loved FIFA on the PlayStation. I still squeeze in some game time occasionally when I can.
-
-So, what's this blog for? It's basically my attempt to make sense of it all – sharing projects, things I'm learning, maybe the occasional rant, and posts about other random topics that grab my interest (though, fair warning, expect a lot of AI content). Think of it as my journey, documented 📝.
-
-Pull up a chair, let's learn something together. Glad you stopped by! 😄
-
-----
-
-**P.S. If you want the nitty-gritty on projects I've worked on or my background, check out the [About](https://atharva.bearblog.dev/about/) page.**
+<!-- [Read the detailed about →](about.qmd){.btn .btn-primary .home-cta} -->
 
 
-<div style="clear: both;"></div> 
-<!-- This stops text below from wrapping around the image -->
+<br>
 
-You can contact me on <a href="https://twitter.com/AtharvaIngle7" target="_blank">Twitter</a> (most active), <a href="mailto:atharvaaingle@gmail.com" target="_blank">Gmail</a>, <a href="https://www.linkedin.com/in/atharva-ingle-564430187/" target="_blank">LinkedIn</a>. My other accounts include <a href="https://www.kaggle.com/atharvaingle" target="_blank">Kaggle</a>, <a href="https://wandb.ai/gladiator" target="_blank">Weights & Biases</a>, and <a href="https://www.youtube.com/channel/UCT6C1WwBRvi1Gc4iVdeP8FQ" target="_blank">YouTube</a>.
+
+---
+
+### 💼 Work with me
+I am open to consulting work and collaborations. Please reach out to me at `atharvaaingle@gmail.com`
+
+---
+
+### 📰 News
+- [Participated in WSDM Cup - Multilingual Chatbot Arena on Kaggle](https://www.kaggle.com/competitions/wsdm-cup-multilingual-chatbot-arena/overview): **Earned a solo silver medal placing 31st out of 950 teams**. Challenge was to develop a reward model (used in RLHF stage) for multilingual human conversations on the chatbot arena (formerly LMSYS). Read details about my solution [here](https://github.com/Gladiator07/WSDM-Cup-2025-Kaggle).
+
+**What I am doing lately**
+
+- I am diving deep into distributed learning
+- I am exploring AI agents and looking where they can be genuinely used.
+
+---
+
+### 🏢 Who I'm working with currently
+
+#### **Wolters Kluwer (Jan 2023 - Present): Machine Learning Engineer**: 
+- I mostly work on Document AI for legal and financial workflows. I’ve shipped multiple LLM/RAG services to production and am currently exploring where agents are genuinely useful in our products.
+- **Recent work that I'm proud of:** Successfully instruction tuned a Qwen-2.5-VL model to extract structured information from billions of scanned images of very complex and different formats and deployed the complete system to production. This project involved preparing training data from scratch, establishing evals, fine-tuning the model, and implementing robust production serving infrastructure.
+
+#### **Weights & Biases (May 2022 - Present): Ambassador**: 
+- Writing technical reports and educational content for the community, turning new research and tools into simple, working examples and teach the ML community how to use them and demonstrate best practices with W&B platform.
+- Engineering optimized Kaggle notebooks with added support for W&B tracking and monitoring tools.
+
+
+---
+
+## 📮 Blog
+
+Recent posts and notes:
+
+::: {#blog-listings}
+:::
