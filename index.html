@@ -84,10 +84,10 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-date','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
       page: 5,
     pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
-      searchColumns: ["listing-date","listing-title","listing-author"],
+      searchColumns: ["listing-title","listing-categories","listing-description","listing-image","listing-date"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -442,27 +442,7 @@ Title
 </thead>
 <tbody class="list">
 
-<tr data-index="0" data-categories="bmV3" data-listing-date-sort="1757203200000" data-listing-file-modified-sort="1757266078716" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="529" data-listing-title-sort="vLLM V0 + Prefix Caching on 2×T4: Why merged weights hung but LoRA didn't" data-listing-filename-sort="testing-my-own-blog.md">
-<td>
-<span class="listing-date">9/7/25</span>
-</td>
-<td>
-<a href="./posts/testing-my-own-blog.html" class="title listing-title">vLLM V0 + Prefix Caching on 2×T4: Why merged weights hung but LoRA didn’t</a>
-</td>
-
-</tr>
-
-<tr data-index="1" data-categories="TExNcw==" data-listing-date-sort="1757203200000" data-listing-file-modified-sort="1757266078716" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="169" data-listing-title-sort="My Second Blog Post" data-listing-filename-sort="another-test.md">
-<td>
-<span class="listing-date">9/7/25</span>
-</td>
-<td>
-<a href="./posts/another-test.html" class="title listing-title">My Second Blog Post</a>
-</td>
-
-</tr>
-
-<tr data-index="2" data-categories="VyUyNkIlMkNSQUc=" data-listing-date-sort="1754611200000" data-listing-title-sort="MUVERA - Google's FDE approach for speeding up multi-vector retrieval">
+<tr data-index="0" data-categories="VyUyNkIlMkNSQUc=" data-listing-date-sort="1754611200000" data-listing-title-sort="MUVERA - Google's FDE approach for speeding up multi-vector retrieval">
 <td>
 <span class="listing-date">8/8/25</span>
 </td>
@@ -472,7 +452,7 @@ Title
 
 </tr>
 
-<tr data-index="3" data-categories="VyUyNkIlMkNBZ2VudHM=" data-listing-date-sort="1744243200000" data-listing-title-sort="Using Google's Agent Development Kit and Agent2Agent">
+<tr data-index="1" data-categories="VyUyNkIlMkNBZ2VudHM=" data-listing-date-sort="1744243200000" data-listing-title-sort="Using Google's Agent Development Kit and Agent2Agent">
 <td>
 <span class="listing-date">4/10/25</span>
 </td>
@@ -482,7 +462,7 @@ Title
 
 </tr>
 
-<tr data-index="4" data-categories="VyUyNkIlMkNSTA==" data-listing-date-sort="1743984000000" data-listing-title-sort="Deep reinforcement learning: Integrating neural networks with RL">
+<tr data-index="2" data-categories="VyUyNkIlMkNSTA==" data-listing-date-sort="1743984000000" data-listing-title-sort="Deep reinforcement learning: Integrating neural networks with RL">
 <td>
 <span class="listing-date">4/7/25</span>
 </td>
@@ -492,7 +472,7 @@ Title
 
 </tr>
 
-<tr data-index="5" data-categories="VyUyNkIlMkNSTA==" data-listing-date-sort="1743811200000" data-listing-title-sort="Supervised learning vs deep learning vs reinforcement learning">
+<tr data-index="3" data-categories="VyUyNkIlMkNSTA==" data-listing-date-sort="1743811200000" data-listing-title-sort="Supervised learning vs deep learning vs reinforcement learning">
 <td>
 <span class="listing-date">4/5/25</span>
 </td>
@@ -502,7 +482,7 @@ Title
 
 </tr>
 
-<tr data-index="6" data-categories="VyUyNkIlMkNMTE1z" data-listing-date-sort="1737936000000" data-listing-title-sort="LLMs are machine learning classifiers">
+<tr data-index="4" data-categories="VyUyNkIlMkNMTE1z" data-listing-date-sort="1737936000000" data-listing-title-sort="LLMs are machine learning classifiers">
 <td>
 <span class="listing-date">1/27/25</span>
 </td>
@@ -512,7 +492,7 @@ Title
 
 </tr>
 
-<tr data-index="7" data-categories="VyUyNkIlMkNSQUc=" data-listing-date-sort="1728086400000" data-listing-title-sort="RAG techniques: From naive to advanced">
+<tr data-index="5" data-categories="VyUyNkIlMkNSQUc=" data-listing-date-sort="1728086400000" data-listing-title-sort="RAG techniques: From naive to advanced">
 <td>
 <span class="listing-date">10/5/24</span>
 </td>
@@ -522,7 +502,7 @@ Title
 
 </tr>
 
-<tr data-index="8" data-categories="VyUyNkIlMkNGaW5hbmNl" data-listing-date-sort="1714521600000" data-listing-title-sort="AI and regulatory compliance in finance">
+<tr data-index="6" data-categories="VyUyNkIlMkNGaW5hbmNl" data-listing-date-sort="1714521600000" data-listing-title-sort="AI and regulatory compliance in finance">
 <td>
 <span class="listing-date">5/1/24</span>
 </td>
@@ -532,7 +512,7 @@ Title
 
 </tr>
 
-<tr data-index="9" data-categories="VyUyNkIlMkNGaW5hbmNl" data-listing-date-sort="1714348800000" data-listing-title-sort="What is model risk management in finance?">
+<tr data-index="7" data-categories="VyUyNkIlMkNGaW5hbmNl" data-listing-date-sort="1714348800000" data-listing-title-sort="What is model risk management in finance?">
 <td>
 <span class="listing-date">4/29/24</span>
 </td>
@@ -542,7 +522,7 @@ Title
 
 </tr>
 
-<tr data-index="10" data-categories="VyUyNkIlMkNSQUc=" data-listing-date-sort="1682380800000" data-listing-title-sort="Building a Q&amp;A Bot for Weights &amp; Biases">
+<tr data-index="8" data-categories="VyUyNkIlMkNSQUc=" data-listing-date-sort="1682380800000" data-listing-title-sort="Building a Q&amp;A Bot for Weights &amp; Biases">
 <td>
 <span class="listing-date">4/25/23</span>
 </td>
@@ -552,7 +532,7 @@ Title
 
 </tr>
 
-<tr data-index="11" data-categories="VyUyNkIlMkNWTE1z" data-listing-date-sort="1677196800000" data-listing-title-sort="BLIP-2: A new Visual Language Model by Salesforce">
+<tr data-index="9" data-categories="VyUyNkIlMkNWTE1z" data-listing-date-sort="1677196800000" data-listing-title-sort="BLIP-2: A new Visual Language Model by Salesforce">
 <td>
 <span class="listing-date">2/24/23</span>
 </td>
@@ -562,7 +542,7 @@ Title
 
 </tr>
 
-<tr data-index="12" data-categories="VyUyNkIlMkNQeXRvcmNo" data-listing-date-sort="1674518400000" data-listing-title-sort="Is PyTorch 2.0 Faster Than PyTorch 1.13?">
+<tr data-index="10" data-categories="VyUyNkIlMkNQeXRvcmNo" data-listing-date-sort="1674518400000" data-listing-title-sort="Is PyTorch 2.0 Faster Than PyTorch 1.13?">
 <td>
 <span class="listing-date">1/24/23</span>
 </td>
@@ -572,7 +552,7 @@ Title
 
 </tr>
 
-<tr data-index="13" data-categories="VyUyNkI=" data-listing-date-sort="1669680000000" data-listing-title-sort="SetFit: Efficient Few-Shot Learning Without Prompts">
+<tr data-index="11" data-categories="VyUyNkI=" data-listing-date-sort="1669680000000" data-listing-title-sort="SetFit: Efficient Few-Shot Learning Without Prompts">
 <td>
 <span class="listing-date">11/29/22</span>
 </td>
@@ -582,7 +562,7 @@ Title
 
 </tr>
 
-<tr data-index="14" data-categories="VyUyNkIlMkNWTE1z" data-listing-date-sort="1668556800000" data-listing-title-sort="DeepMind Flamingo: A Visual Language Model for Few-Shot Learning">
+<tr data-index="12" data-categories="VyUyNkIlMkNWTE1z" data-listing-date-sort="1668556800000" data-listing-title-sort="DeepMind Flamingo: A Visual Language Model for Few-Shot Learning">
 <td>
 <span class="listing-date">11/16/22</span>
 </td>
@@ -592,7 +572,7 @@ Title
 
 </tr>
 
-<tr data-index="15" data-categories="VyUyNkIlMkNQeXRvcmNo" data-listing-date-sort="1665792000000" data-listing-title-sort="Hugging Face Accelerate Super Charged With Weights &amp; Biases">
+<tr data-index="13" data-categories="VyUyNkIlMkNQeXRvcmNo" data-listing-date-sort="1665792000000" data-listing-title-sort="Hugging Face Accelerate Super Charged With Weights &amp; Biases">
 <td>
 <span class="listing-date">10/15/22</span>
 </td>
@@ -602,7 +582,7 @@ Title
 
 </tr>
 
-<tr data-index="16" data-categories="VyUyNkIlMkNQeXRvcmNo" data-listing-date-sort="1660608000000" data-listing-title-sort="3D Segmentation with MONAI and PyTorch Supercharged by Weights &amp; Biases">
+<tr data-index="14" data-categories="VyUyNkIlMkNQeXRvcmNo" data-listing-date-sort="1660608000000" data-listing-title-sort="3D Segmentation with MONAI and PyTorch Supercharged by Weights &amp; Biases">
 <td>
 <span class="listing-date">8/16/22</span>
 </td>
