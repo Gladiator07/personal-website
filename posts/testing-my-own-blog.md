@@ -1,5 +1,5 @@
 ---
-title: "My First Blog Post"
+title: "vLLM V0 + Prefix Caching on 2×T4: Why merged weights hung but LoRA didn't"
 description: "A brief description of what this post is about"
 date: "2025-09-07"
 categories: [new]
@@ -10,7 +10,7 @@ image: ../profile.jpg
 
 ---
 
-### TL;DR
+### TL;DR (Too long didn't read)
 * Your freeze was a **V0 engine + TP>1 + prefix caching** interaction under tight VRAM. Turning **enable_prefix_caching=False** removed that path.
 * With **merged weights**, the engine **reused** one giant shared-prefix KV cache across thousands of requests; the V0 scheduler/block-manager then ran out of allocatable KV blocks and stalled. With **LoRA**, caches are **namespaced per adapter**, so that aggressive sharing path wasn't taken, avoiding the stall.
 
