@@ -3,7 +3,7 @@ project:
 
 website:
   description: "Atharva Ingle — Personal Website"
-  site-url: https://your-website-url.example.com # update when domain is ready
+  site-url: https://gladiator07.github.io
   favicon: assets/favicon.webp
   page-navigation: true
   title: "Atharva Ingle"
@@ -44,3 +44,6 @@ format:
     monofont: "'SF Mono', 'Monaco', 'Inconsolata', 'Fira Code', 'JetBrains Mono', 'Source Code Pro', 'Consolas', 'Courier New', monospace"
     fontsize: 1.05em
     linestretch: 1.6
+
+execute:
+  freeze: auto
