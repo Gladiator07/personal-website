@@ -1,16 +1,16 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/blogs.html",
     "items": [
-      "/posts/another-test.html",
-      "/posts/testing-my-own-blog.html"
+      "/posts/testing-my-own-blog.html",
+      "/posts/another-test.html"
     ]
   },
   {
-    "listing": "/blogs.html",
+    "listing": "/index.html",
     "items": [
-      "/posts/another-test.html",
-      "/posts/testing-my-own-blog.html"
+      "/posts/testing-my-own-blog.html",
+      "/posts/another-test.html"
     ]
   }
 ]
