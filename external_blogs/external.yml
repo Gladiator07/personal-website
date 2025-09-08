@@ -8,7 +8,7 @@
   path: https://wandb.ai/gladiator/Reinforcement-learning-reports/reports/Deep-Reinforcement-Learning-Integrating-neural-networks-with-RL--VmlldzoxMjE2OTQ1Mw
   categories: [W&B, RL]
   description: "Explore how deep reinforcement learning combines neural networks and RL to enable agents to learn optimal strategies from raw data across gaming and robotics."
-  image: external_blogs/images/deep-reinforcement-learning-integrating-neural-networks-with-rl.png
+  image: external_blogs/images/deep-reinforcement-learning-integrating-neural-networks-with-rl.jpg
   date: '2025-04-07'
 - title: Supervised learning vs deep learning vs reinforcement learning
   path: https://wandb.ai/gladiator/Reinforcement-learning-reports/reports/Supervised-learning-vs-deep-learning-vs-reinforcement-learning--VmlldzoxMjE0MzQ0NQ
@@ -21,7 +21,7 @@
   categories: [W&B, RAG]
   description: "Explore various RAG techniques, from basic to advanced, and discover how chunking, indexing, and query transformation can elevate your AI's performance in complex use cases."
   date: '2024-10-05'
-  image: external_blogs/images/rag-techniques-from-naive-to-advanced.png
+  image: external_blogs/images/rag-techniques-from-naive-to-advanced.webp
 - title: LLMs are machine learning classifiers
   path: https://wandb.ai/gladiator/LLMs-as-classifiers/reports/LLMs-are-machine-learning-classifiers--VmlldzoxMTEwNzUyNA
   categories: [W&B, LLMs]
@@ -44,13 +44,13 @@
   path: https://wandb.ai/gladiator/BLIP-2/reports/BLIP-2-A-new-Visual-Language-Model-by-Salesforce--VmlldzozNjM0NjYz
   categories: [W&B, VLMs]
   description: "In this article, we'll explore BLIP-2, a new Vision Language Model by Salesforce which beats the previous state-of-the-art Flamingo on various multimodal tasks."
-  image: external_blogs/images/blip-2-a-new-visual-language-model-by-salesforce.png
+  image: external_blogs/images/blip-2-a-new-visual-language-model-by-salesforce.jpg
   date: '2023-02-24'
 - title: 'SetFit: Efficient Few-Shot Learning Without Prompts'
   path: https://wandb.ai/gladiator/SetFit/reports/SetFit-Efficient-Few-Shot-Learning-Without-Prompts--VmlldzozMDUyMzk2
   categories: [W&B]
   description: "Publish your model insights with interactive plots for performance metrics, predictions, and hyperparameters. Made by Atharva Ingle using Weights & Biases"
-  image: external_blogs/images/setfit-efficient-few-shot-learning-without-prompts.png
+  image: external_blogs/images/setfit-efficient-few-shot-learning-without-prompts.jpg
   date: '2022-11-29'
 - title: Is PyTorch 2.0 Faster Than PyTorch 1.13?
   path: https://wandb.ai/gladiator/PyTorch%202.0%20Benchmarks%20v2/reports/Is-PyTorch-2-0-Faster-Than-PyTorch-1-13---VmlldzozNDA2MDQz
@@ -81,7 +81,7 @@
   categories: [W&B, Finance]
   description: "This guide covers why Model Risk Management (MRM) is important to ensure financial models are accurate and safe, and provides tips for managing model risks effectively."
   date: '2024-04-29'
-  image: external_blogs/images/what-is-model-risk-management-in-finance.png
+  image: external_blogs/images/what-is-model-risk-management-in-finance.webp
 - title: MUVERA - Google's FDE approach for speeding up multi-vector retrieval
   path: https://wandb.ai/gladiator/muvera-benchmark/reports/Muvera-tutorial-Experiment-tracking-and-observability-with-W-B-Models--VmlldzoxMzkwNjQ0NA
   categories: [W&B, RAG]
