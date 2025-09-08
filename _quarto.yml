@@ -7,15 +7,13 @@ website:
   site-url: https://atharvaingle.dev
   favicon: assets/favicon.ico
   page-navigation: true
-  title: "Atharva Ingle"
+  title: "Atharva"
   navbar:
     left:
       - text: About
         href: about.qmd
-        target: _blank
       - text: Blog
         href: blogs.qmd
-        target: _blank
     right:
       - text: "<img src='assets/kaggle_icon.svg' alt='Kaggle' class='nav-icon' />"
         href: https://www.kaggle.com/atharvaingle
