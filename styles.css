@@ -20,10 +20,8 @@
   height: 1.1rem;
   vertical-align: -0.2rem;
 }
-/* Simple single background color per mode */
 
 /* Light mode: soft warm off‑white */
-/* Ensure link colors override Bootswatch values */
 :root,
 body.quarto-light {
   --bs-body-bg: #f7f3ed; /* global page background */
@@ -34,8 +32,8 @@ body.quarto-light {
 /* Dark mode: warm near‑black */
 body.quarto-dark,
 [data-bs-theme="dark"] {
-  /* Slightly lighter warm dark */
-  --bs-body-bg: #1b1816; /* global page background */
+  /* Warm dark palette */
+  --bs-body-bg: #221f1d; /* global page background */
   --bs-link-color: #58a6ff; /* accessible blue on dark */
   --bs-link-hover-color: #79b8ff; /* lighter on hover */
 }
@@ -49,8 +47,27 @@ a:focus {
   color: var(--bs-link-hover-color);
 }
 
-/* Make navbar match the single background color */
+#quarto-header .navbar,
 header .navbar {
-  background-color: var(--bs-body-bg) !important;
-  border-bottom: none;
+  background: var(--bs-body-bg) !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  padding-block: 0.6rem;
+}
+
+/* Dark mode navbar gets a touch darker than body */
+body.quarto-dark #quarto-header .navbar,
+body.quarto-dark header .navbar,
+[data-bs-theme="dark"] #quarto-header .navbar,
+[data-bs-theme="dark"] header .navbar {
+  background: #2a2624 !important;
+  border-bottom-color: rgba(255, 255, 255, 0.08);
+}
+
+#quarto-header .navbar .navbar-brand,
+#quarto-header .navbar .nav-link,
+header .navbar .navbar-brand,
+header .navbar .nav-link {
+  color: var(--bs-body-color) !important;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
 }
