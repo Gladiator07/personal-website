@@ -118,7 +118,7 @@ I love participating in machine learning competitions. I am primarily active on 
 
 ---
 
-### 🎤 Talks
+## 🎤 Talks
 
 I frequently give talks on machine learning and MLOps topics. Most of my talks to colleges and small groups are not recorded, but here is one notable recorded presentation:
 
