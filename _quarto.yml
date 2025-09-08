@@ -5,7 +5,7 @@ project:
 website:
   description: "Atharva Ingle — Personal Website"
   site-url: https://atharvaingle.dev
-  favicon: assets/favicon.webp
+  favicon: assets/favicon.ico
   page-navigation: true
   title: "Atharva Ingle"
   navbar:
