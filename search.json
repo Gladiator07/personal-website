@@ -46,6 +46,13 @@
     "href": "about.html#open-source-contributions",
     "title": "About",
     "section": "🌍 Open-Source Contributions",
-    "text": "🌍 Open-Source Contributions\n\nFixed an example script on HuggingFace 🤗 transformers repository for XLA devices - PR\nMade the experiment trackers to launch only on main process in distributed setups on 🤗 Accelerate library - PR\nFixed several examples and removed the check for main process… on 🤗 Accelerate library - PR\nUpdate several 🤗 transformers no_trainer scripts leveraging 🤗 Accelerate… - PR\nContributed a report to Weights & Biases showcasing the integration of MONAI and W&B - PR\n\n\n\n🎤 Talks\nI frequently give talks on machine learning and MLOps topics. Most of my talks to colleges and small groups are not recorded, but here is one notable recorded presentation:\n\nWeights & Biases MLOps Conference (Fully Connected 2023) - I was a speaker at the inaugural Weights & Biases MLOps conference. You can listen to my talk here. Also here’s the announcement post.\n\nI’m open to giving talks! If you’re interested in having me speak at your event, please reach out to me at atharvaaingle@gmail.com."
+    "text": "🌍 Open-Source Contributions\n\nFixed an example script on HuggingFace 🤗 transformers repository for XLA devices - PR\nMade the experiment trackers to launch only on main process in distributed setups on 🤗 Accelerate library - PR\nFixed several examples and removed the check for main process… on 🤗 Accelerate library - PR\nUpdate several 🤗 transformers no_trainer scripts leveraging 🤗 Accelerate… - PR\nContributed a report to Weights & Biases showcasing the integration of MONAI and W&B - PR"
+  },
+  {
+    "objectID": "about.html#talks",
+    "href": "about.html#talks",
+    "title": "About",
+    "section": "🎤 Talks",
+    "text": "🎤 Talks\nI frequently give talks on machine learning and MLOps topics. Most of my talks to colleges and small groups are not recorded, but here is one notable recorded presentation:\n\nWeights & Biases MLOps Conference (Fully Connected 2023) - I was a speaker at the inaugural Weights & Biases MLOps conference. You can listen to my talk here. Also here’s the announcement post.\n\nI’m open to giving talks! If you’re interested in having me speak at your event, please reach out to me at atharvaaingle@gmail.com."
   }
 ]
