@@ -9,5 +9,6 @@ listing:
   categories: True
   page-size: 50
   fields: [image, date, title, categories, description]
+  feed: true
 ---
-All blogs written by me (includes external blogs)
+All blogs written by me (includes external blogs). You can subscribe to my RSS Feed [here](https://atharvaingle.dev/blogs.xml)

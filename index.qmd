@@ -59,7 +59,7 @@ I am open to consulting work and collaborations. Please reach out to me at `atha
 
 ## 📮 Blog
 
-Recent posts and notes:
+Recent posts and notes. You can subscribe to my RSS Feed [here](https://atharvaingle.dev/blogs.xml):
 
 ::: {#blog-listings}
 :::

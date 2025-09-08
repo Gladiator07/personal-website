@@ -24,6 +24,8 @@ website:
         href: https://twitter.com/AtharvaIngle7
       - icon: linkedin
         href: https://www.linkedin.com/in/atharva-ingle-564430187/
+      - icon: rss
+        href: /blogs.xml
       - icon: substack
         href: https://atharvaingle.substack.com/
 
