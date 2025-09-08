@@ -27,11 +27,17 @@ website:
       - icon: substack
         href: https://atharvaingle.substack.com/
 
-    twitter-card:
-      site: "@AtharvaIngle7"
-      title: "Atharva Ingle"
-      description: "Personal Website of Atharva Ingle"
-      image: "assets/profile.jpg"
+
+  image: "assets/profile.jpg"
+  image-alt: "Atharva Ingle website social preview"
+  open-graph: true
+  twitter-card:
+    site: "@AtharvaIngle7"
+    card-style: summary_large_image
+    title: "Atharva Ingle"
+    description: "Personal Website of Atharva Ingle"
+    image: "assets/profile.jpg"
+
 format:
   html:
     theme:
