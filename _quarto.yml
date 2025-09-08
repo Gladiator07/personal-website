@@ -12,22 +12,30 @@ website:
     left:
       - text: About
         href: about.qmd
+        target: _blank
       - text: Blog
         href: blogs.qmd
+        target: _blank
     right:
       - text: "<img src='assets/kaggle_icon.svg' alt='Kaggle' class='nav-icon' />"
         href: https://www.kaggle.com/atharvaingle
         aria-label: Kaggle
+        target: _blank
       - icon: github
         href: https://github.com/Gladiator07
+        target: _blank
       - icon: twitter
         href: https://twitter.com/AtharvaIngle7
+        target: _blank
       - icon: linkedin
         href: https://www.linkedin.com/in/atharva-ingle-564430187/
+        target: _blank
       - icon: rss
         href: /blogs.xml
+        target: _blank
       - icon: substack
         href: https://atharvaingle.substack.com/
+        target: _blank
 
 
   image: "assets/profile.jpg"
