@@ -5,13 +5,13 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>Atharva Ingle</title>
+<title>Atharva</title>
 <link>https://atharvaingle.dev/blogs.html</link>
 <atom:link href="https://atharvaingle.dev/blogs.xml" rel="self" type="application/rss+xml"/>
 <description>Atharva Ingle — Personal Website</description>
 <image>
 <url>https://atharvaingle.dev/assets/profile.jpg</url>
-<title>Atharva Ingle</title>
+<title>Atharva</title>
 <link>https://atharvaingle.dev/blogs.html</link>
 </image>
 <generator>quarto-1.7.34</generator>
