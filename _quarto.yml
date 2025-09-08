@@ -51,6 +51,7 @@ format:
     monofont: "'SF Mono', 'Monaco', 'Inconsolata', 'Fira Code', 'JetBrains Mono', 'Source Code Pro', 'Consolas', 'Courier New', monospace"
     fontsize: 1.05em
     linestretch: 1.6
+    include-in-header: header.html
 
 execute:
   freeze: auto
