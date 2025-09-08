@@ -1,6 +1,8 @@
 ---
 title: "About"
 toc: true
+aliases:
+  - /about.html
 ---
 
 This page contains a detailed overview of the past work I did.
