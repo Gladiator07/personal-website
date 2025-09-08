@@ -19,7 +19,7 @@ listing:
 
 <img src="assets/profile.jpg" alt="Atharva Ingle" class="home-avatar" />
 
-I’m Atharva, a Machine Learning Engineer focused on LLMs, RAG and AI agents. I like building things that ship, writing what I learn, and competing on Kaggle for fun. This site collects my notes, projects, and occasional essays. See my [about page](about.qmd) to read about my past work in much detail. Also check out [my blog](blogs.qmd) where I write about what I learn occasionally.
+I’m Atharva, a Machine Learning Engineer focused on LLMs, RAG and AI agents. I like building things that ship, writing what I learn, and competing on Kaggle for fun. This site collects my notes, projects, and occasional essays. See my [about page](about.qmd) to read about my past work in much detail. Also check out [my blog](blogs.qmd) where I write about what I learn occasionally. The best way to follow my activity is [X (Twitter)](https://x.com/AtharvaIngle7).
 
 <!-- [Read the detailed about →](about.qmd){.btn .btn-primary .home-cta} -->
 
