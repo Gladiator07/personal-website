@@ -1,9 +1,10 @@
 project:
   type: website
-
+  resources:
+    - CNAME
 website:
   description: "Atharva Ingle — Personal Website"
-  site-url: https://gladiator07.github.io
+  site-url: https://atharvaingle.dev
   favicon: assets/favicon.webp
   page-navigation: true
   title: "Atharva Ingle"
