@@ -42,7 +42,7 @@ This page contains a detailed overview of the past work I did.
 
 -   Engineered optimized Kaggle notebooks with integrated W&B tracking and monitoring.
 -   Authored technical reports showcasing W&B across medical imaging, visual-language models (Flamingo, BLIP-2), few-shot learning (SetFit), PyTorch 2.0, Hugging Face, RAG, and LLMs.
--   You can find all my W&B blogs [here]()
+-   You can find all my W&B blogs [here](https://atharvaingle.dev/blogs.html#category=W&B)
 
 ------------------------------------------------------------------------
 
