@@ -11,7 +11,7 @@ website:
   navbar:
     left:
       - text: About
-        href: pages/about.qmd
+        href: about.qmd
       - text: Blog
         href: blogs.qmd
     right:
