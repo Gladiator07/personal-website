@@ -4,3 +4,4 @@ _site/
 **/*.quarto_ipynb
 .codex/*
 .DS_Store
+_exported_notes/
