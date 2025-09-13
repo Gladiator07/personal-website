@@ -15,7 +15,7 @@ website:
       - text: Blog
         href: blogs.qmd
     right:
-      - text: "<img src='assets/kaggle_icon.svg' alt='Kaggle' class='nav-icon' />"
+      - text: "<img src='/assets/kaggle_icon.svg' alt='Kaggle' class='nav-icon' />"
         href: https://www.kaggle.com/atharvaingle
         aria-label: Kaggle
         target: _blank
